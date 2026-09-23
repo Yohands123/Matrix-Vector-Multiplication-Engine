@@ -1,0 +1,11 @@
+0.7
+2020.2
+Mar  6 2025
+19:11:35
+C:/Users/ypnayak/ece327-s2026-lab4/lab4/src/accum.sv,1783961232,systemVerilog,,C:/Users/ypnayak/ece327-s2026-lab4/lab4/src/ctrl.sv,,accum,,uvm,,,,,,
+C:/Users/ypnayak/ece327-s2026-lab4/lab4/src/ctrl.sv,1783958629,systemVerilog,,C:/Users/ypnayak/ece327-s2026-lab4/lab4/src/dot8.sv,,ctrl,,uvm,,,,,,
+C:/Users/ypnayak/ece327-s2026-lab4/lab4/src/dot8.sv,1783958943,systemVerilog,,C:/Users/ypnayak/ece327-s2026-lab4/lab4/src/mem.sv,,dot8,,uvm,,,,,,
+C:/Users/ypnayak/ece327-s2026-lab4/lab4/src/mem.sv,1783957185,systemVerilog,,C:/Users/ypnayak/ece327-s2026-lab4/lab4/src/mvm.sv,,mem,,uvm,,,,,,
+C:/Users/ypnayak/ece327-s2026-lab4/lab4/src/mvm.sv,1783958904,systemVerilog,,C:/Users/ypnayak/ece327-s2026-lab4/lab4/tb/mvm_tb.sv,,mvm,,uvm,,,,,,
+C:/Users/ypnayak/ece327-s2026-lab4/lab4/tb/mvm_tb.sv,1783957185,systemVerilog,,,,mvm_tb,,uvm,,,,,,
+C:/Users/ypnayak/lab4/lab4.sim/sim_1/behav/xsim/glbl.v,1734094861,verilog,,,,glbl,,uvm,,,,,,

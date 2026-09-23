@@ -1,0 +1,74 @@
+Vivado Simulator v2024.2.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Software/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot mvm_tb_behav xil_defaultlib.mvm_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/ypnayak/ece327-s2026-lab4/lab4/src/mvm.sv" Line 7. Module mvm_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ypnayak/ece327-s2026-lab4/lab4/src/ctrl.sv" Line 7. Module ctrl(VEC_SIZEW=9,MAT_SIZEW=10) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ypnayak/ece327-s2026-lab4/lab4/src/mem.sv" Line 7. Module mem(DATAW=64,DEPTH=256,ADDRW=8) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ypnayak/ece327-s2026-lab4/lab4/src/mem.sv" Line 7. Module mem(DATAW=64,ADDRW=9) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ypnayak/ece327-s2026-lab4/lab4/src/dot8.sv" Line 7. Module dot8_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ypnayak/ece327-s2026-lab4/lab4/src/accum.sv" Line 7. Module accum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ypnayak/ece327-s2026-lab4/lab4/src/mem.sv" Line 7. Module mem(DATAW=64,ADDRW=9) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ypnayak/ece327-s2026-lab4/lab4/src/dot8.sv" Line 7. Module dot8_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ypnayak/ece327-s2026-lab4/lab4/src/accum.sv" Line 7. Module accum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ypnayak/ece327-s2026-lab4/lab4/src/mem.sv" Line 7. Module mem(DATAW=64,ADDRW=9) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ypnayak/ece327-s2026-lab4/lab4/src/dot8.sv" Line 7. Module dot8_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ypnayak/ece327-s2026-lab4/lab4/src/accum.sv" Line 7. Module accum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ypnayak/ece327-s2026-lab4/lab4/src/mem.sv" Line 7. Module mem(DATAW=64,ADDRW=9) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ypnayak/ece327-s2026-lab4/lab4/src/dot8.sv" Line 7. Module dot8_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ypnayak/ece327-s2026-lab4/lab4/src/accum.sv" Line 7. Module accum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ypnayak/ece327-s2026-lab4/lab4/src/mem.sv" Line 7. Module mem(DATAW=64,ADDRW=9) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ypnayak/ece327-s2026-lab4/lab4/src/dot8.sv" Line 7. Module dot8_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ypnayak/ece327-s2026-lab4/lab4/src/accum.sv" Line 7. Module accum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ypnayak/ece327-s2026-lab4/lab4/src/mem.sv" Line 7. Module mem(DATAW=64,ADDRW=9) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ypnayak/ece327-s2026-lab4/lab4/src/dot8.sv" Line 7. Module dot8_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ypnayak/ece327-s2026-lab4/lab4/src/accum.sv" Line 7. Module accum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ypnayak/ece327-s2026-lab4/lab4/src/mem.sv" Line 7. Module mem(DATAW=64,ADDRW=9) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ypnayak/ece327-s2026-lab4/lab4/src/dot8.sv" Line 7. Module dot8_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ypnayak/ece327-s2026-lab4/lab4/src/accum.sv" Line 7. Module accum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ypnayak/ece327-s2026-lab4/lab4/src/mem.sv" Line 7. Module mem(DATAW=64,ADDRW=9) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ypnayak/ece327-s2026-lab4/lab4/src/dot8.sv" Line 7. Module dot8_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ypnayak/ece327-s2026-lab4/lab4/src/accum.sv" Line 7. Module accum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ypnayak/ece327-s2026-lab4/lab4/src/mvm.sv" Line 7. Module mvm_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ypnayak/ece327-s2026-lab4/lab4/src/ctrl.sv" Line 7. Module ctrl(VEC_SIZEW=9,MAT_SIZEW=10) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ypnayak/ece327-s2026-lab4/lab4/src/mem.sv" Line 7. Module mem(DATAW=64,DEPTH=256,ADDRW=8) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ypnayak/ece327-s2026-lab4/lab4/src/mem.sv" Line 7. Module mem(DATAW=64,ADDRW=9) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ypnayak/ece327-s2026-lab4/lab4/src/dot8.sv" Line 7. Module dot8_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ypnayak/ece327-s2026-lab4/lab4/src/accum.sv" Line 7. Module accum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ypnayak/ece327-s2026-lab4/lab4/src/mem.sv" Line 7. Module mem(DATAW=64,ADDRW=9) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ypnayak/ece327-s2026-lab4/lab4/src/dot8.sv" Line 7. Module dot8_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ypnayak/ece327-s2026-lab4/lab4/src/accum.sv" Line 7. Module accum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ypnayak/ece327-s2026-lab4/lab4/src/mem.sv" Line 7. Module mem(DATAW=64,ADDRW=9) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ypnayak/ece327-s2026-lab4/lab4/src/dot8.sv" Line 7. Module dot8_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ypnayak/ece327-s2026-lab4/lab4/src/accum.sv" Line 7. Module accum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ypnayak/ece327-s2026-lab4/lab4/src/mem.sv" Line 7. Module mem(DATAW=64,ADDRW=9) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ypnayak/ece327-s2026-lab4/lab4/src/dot8.sv" Line 7. Module dot8_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ypnayak/ece327-s2026-lab4/lab4/src/accum.sv" Line 7. Module accum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ypnayak/ece327-s2026-lab4/lab4/src/mem.sv" Line 7. Module mem(DATAW=64,ADDRW=9) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ypnayak/ece327-s2026-lab4/lab4/src/dot8.sv" Line 7. Module dot8_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ypnayak/ece327-s2026-lab4/lab4/src/accum.sv" Line 7. Module accum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ypnayak/ece327-s2026-lab4/lab4/src/mem.sv" Line 7. Module mem(DATAW=64,ADDRW=9) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ypnayak/ece327-s2026-lab4/lab4/src/dot8.sv" Line 7. Module dot8_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ypnayak/ece327-s2026-lab4/lab4/src/accum.sv" Line 7. Module accum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ypnayak/ece327-s2026-lab4/lab4/src/mem.sv" Line 7. Module mem(DATAW=64,ADDRW=9) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ypnayak/ece327-s2026-lab4/lab4/src/dot8.sv" Line 7. Module dot8_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ypnayak/ece327-s2026-lab4/lab4/src/accum.sv" Line 7. Module accum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ypnayak/ece327-s2026-lab4/lab4/src/mem.sv" Line 7. Module mem(DATAW=64,ADDRW=9) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ypnayak/ece327-s2026-lab4/lab4/src/dot8.sv" Line 7. Module dot8_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ypnayak/ece327-s2026-lab4/lab4/src/accum.sv" Line 7. Module accum doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ctrl(VEC_SIZEW=9,MAT_SIZEW=10)
+Compiling module xil_defaultlib.mem(DATAW=64,DEPTH=256,ADDRW=8)
+Compiling module xil_defaultlib.mem(DATAW=64,ADDRW=9)
+Compiling module xil_defaultlib.dot8_default
+Compiling module xil_defaultlib.accum
+Compiling module xil_defaultlib.mvm_default
+Compiling module xil_defaultlib.mvm_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot mvm_tb_behav

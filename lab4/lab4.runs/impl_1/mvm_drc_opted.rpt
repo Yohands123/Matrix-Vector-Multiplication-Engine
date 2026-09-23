@@ -1,0 +1,357 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2.2 (win64) Build 6060944 Thu Mar 06 19:10:01 MST 2025
+| Date         : Mon Jul 13 12:49:49 2026
+| Host         : ECE-MCU2-15 running 64-bit major release  (build 9200)
+| Command      : report_drc -file mvm_drc_opted.rpt -pb mvm_drc_opted.pb -rpx mvm_drc_opted.rpx
+| Design       : mvm
+| Device       : xck26-sfvc784-2LV-c
+| Speed File   : -2LV
+| Design State : Synthesized
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max checks: <unlimited>
+             Checks found: 64
++--------+----------+------------------------+--------+
+| Rule   | Severity | Description            | Checks |
++--------+----------+------------------------+--------+
+| DPIP-2 | Warning  | Input pipelining       | 32     |
+| DPOP-3 | Warning  | PREG Output pipelining | 32     |
++--------+----------+------------------------+--------+
+
+2. REPORT DETAILS
+-----------------
+DPIP-2#1 Warning
+Input pipelining  
+DSP GEN_OLANES[0].dot8_inst/sum1_0_reg input GEN_OLANES[0].dot8_inst/sum1_0_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#2 Warning
+Input pipelining  
+DSP GEN_OLANES[0].dot8_inst/sum1_1_reg input GEN_OLANES[0].dot8_inst/sum1_1_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#3 Warning
+Input pipelining  
+DSP GEN_OLANES[0].dot8_inst/sum1_2_reg input GEN_OLANES[0].dot8_inst/sum1_2_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#4 Warning
+Input pipelining  
+DSP GEN_OLANES[0].dot8_inst/sum1_3_reg input GEN_OLANES[0].dot8_inst/sum1_3_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#5 Warning
+Input pipelining  
+DSP GEN_OLANES[1].dot8_inst/sum1_0_reg input GEN_OLANES[1].dot8_inst/sum1_0_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#6 Warning
+Input pipelining  
+DSP GEN_OLANES[1].dot8_inst/sum1_1_reg input GEN_OLANES[1].dot8_inst/sum1_1_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#7 Warning
+Input pipelining  
+DSP GEN_OLANES[1].dot8_inst/sum1_2_reg input GEN_OLANES[1].dot8_inst/sum1_2_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#8 Warning
+Input pipelining  
+DSP GEN_OLANES[1].dot8_inst/sum1_3_reg input GEN_OLANES[1].dot8_inst/sum1_3_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#9 Warning
+Input pipelining  
+DSP GEN_OLANES[2].dot8_inst/sum1_0_reg input GEN_OLANES[2].dot8_inst/sum1_0_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#10 Warning
+Input pipelining  
+DSP GEN_OLANES[2].dot8_inst/sum1_1_reg input GEN_OLANES[2].dot8_inst/sum1_1_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#11 Warning
+Input pipelining  
+DSP GEN_OLANES[2].dot8_inst/sum1_2_reg input GEN_OLANES[2].dot8_inst/sum1_2_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#12 Warning
+Input pipelining  
+DSP GEN_OLANES[2].dot8_inst/sum1_3_reg input GEN_OLANES[2].dot8_inst/sum1_3_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#13 Warning
+Input pipelining  
+DSP GEN_OLANES[3].dot8_inst/sum1_0_reg input GEN_OLANES[3].dot8_inst/sum1_0_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#14 Warning
+Input pipelining  
+DSP GEN_OLANES[3].dot8_inst/sum1_1_reg input GEN_OLANES[3].dot8_inst/sum1_1_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#15 Warning
+Input pipelining  
+DSP GEN_OLANES[3].dot8_inst/sum1_2_reg input GEN_OLANES[3].dot8_inst/sum1_2_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#16 Warning
+Input pipelining  
+DSP GEN_OLANES[3].dot8_inst/sum1_3_reg input GEN_OLANES[3].dot8_inst/sum1_3_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#17 Warning
+Input pipelining  
+DSP GEN_OLANES[4].dot8_inst/sum1_0_reg input GEN_OLANES[4].dot8_inst/sum1_0_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#18 Warning
+Input pipelining  
+DSP GEN_OLANES[4].dot8_inst/sum1_1_reg input GEN_OLANES[4].dot8_inst/sum1_1_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#19 Warning
+Input pipelining  
+DSP GEN_OLANES[4].dot8_inst/sum1_2_reg input GEN_OLANES[4].dot8_inst/sum1_2_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#20 Warning
+Input pipelining  
+DSP GEN_OLANES[4].dot8_inst/sum1_3_reg input GEN_OLANES[4].dot8_inst/sum1_3_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#21 Warning
+Input pipelining  
+DSP GEN_OLANES[5].dot8_inst/sum1_0_reg input GEN_OLANES[5].dot8_inst/sum1_0_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#22 Warning
+Input pipelining  
+DSP GEN_OLANES[5].dot8_inst/sum1_1_reg input GEN_OLANES[5].dot8_inst/sum1_1_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#23 Warning
+Input pipelining  
+DSP GEN_OLANES[5].dot8_inst/sum1_2_reg input GEN_OLANES[5].dot8_inst/sum1_2_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#24 Warning
+Input pipelining  
+DSP GEN_OLANES[5].dot8_inst/sum1_3_reg input GEN_OLANES[5].dot8_inst/sum1_3_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#25 Warning
+Input pipelining  
+DSP GEN_OLANES[6].dot8_inst/sum1_0_reg input GEN_OLANES[6].dot8_inst/sum1_0_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#26 Warning
+Input pipelining  
+DSP GEN_OLANES[6].dot8_inst/sum1_1_reg input GEN_OLANES[6].dot8_inst/sum1_1_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#27 Warning
+Input pipelining  
+DSP GEN_OLANES[6].dot8_inst/sum1_2_reg input GEN_OLANES[6].dot8_inst/sum1_2_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#28 Warning
+Input pipelining  
+DSP GEN_OLANES[6].dot8_inst/sum1_3_reg input GEN_OLANES[6].dot8_inst/sum1_3_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#29 Warning
+Input pipelining  
+DSP GEN_OLANES[7].dot8_inst/sum1_0_reg input GEN_OLANES[7].dot8_inst/sum1_0_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#30 Warning
+Input pipelining  
+DSP GEN_OLANES[7].dot8_inst/sum1_1_reg input GEN_OLANES[7].dot8_inst/sum1_1_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#31 Warning
+Input pipelining  
+DSP GEN_OLANES[7].dot8_inst/sum1_2_reg input GEN_OLANES[7].dot8_inst/sum1_2_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#32 Warning
+Input pipelining  
+DSP GEN_OLANES[7].dot8_inst/sum1_3_reg input GEN_OLANES[7].dot8_inst/sum1_3_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPOP-3#1 Warning
+PREG Output pipelining  
+DSP GEN_OLANES[0].dot8_inst/product0_reg output GEN_OLANES[0].dot8_inst/product0_reg/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#2 Warning
+PREG Output pipelining  
+DSP GEN_OLANES[0].dot8_inst/product2_reg output GEN_OLANES[0].dot8_inst/product2_reg/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#3 Warning
+PREG Output pipelining  
+DSP GEN_OLANES[0].dot8_inst/product4_reg output GEN_OLANES[0].dot8_inst/product4_reg/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#4 Warning
+PREG Output pipelining  
+DSP GEN_OLANES[0].dot8_inst/product6_reg output GEN_OLANES[0].dot8_inst/product6_reg/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#5 Warning
+PREG Output pipelining  
+DSP GEN_OLANES[1].dot8_inst/product0_reg output GEN_OLANES[1].dot8_inst/product0_reg/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#6 Warning
+PREG Output pipelining  
+DSP GEN_OLANES[1].dot8_inst/product2_reg output GEN_OLANES[1].dot8_inst/product2_reg/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#7 Warning
+PREG Output pipelining  
+DSP GEN_OLANES[1].dot8_inst/product4_reg output GEN_OLANES[1].dot8_inst/product4_reg/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#8 Warning
+PREG Output pipelining  
+DSP GEN_OLANES[1].dot8_inst/product6_reg output GEN_OLANES[1].dot8_inst/product6_reg/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#9 Warning
+PREG Output pipelining  
+DSP GEN_OLANES[2].dot8_inst/product0_reg output GEN_OLANES[2].dot8_inst/product0_reg/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#10 Warning
+PREG Output pipelining  
+DSP GEN_OLANES[2].dot8_inst/product2_reg output GEN_OLANES[2].dot8_inst/product2_reg/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#11 Warning
+PREG Output pipelining  
+DSP GEN_OLANES[2].dot8_inst/product4_reg output GEN_OLANES[2].dot8_inst/product4_reg/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#12 Warning
+PREG Output pipelining  
+DSP GEN_OLANES[2].dot8_inst/product6_reg output GEN_OLANES[2].dot8_inst/product6_reg/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#13 Warning
+PREG Output pipelining  
+DSP GEN_OLANES[3].dot8_inst/product0_reg output GEN_OLANES[3].dot8_inst/product0_reg/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#14 Warning
+PREG Output pipelining  
+DSP GEN_OLANES[3].dot8_inst/product2_reg output GEN_OLANES[3].dot8_inst/product2_reg/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#15 Warning
+PREG Output pipelining  
+DSP GEN_OLANES[3].dot8_inst/product4_reg output GEN_OLANES[3].dot8_inst/product4_reg/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#16 Warning
+PREG Output pipelining  
+DSP GEN_OLANES[3].dot8_inst/product6_reg output GEN_OLANES[3].dot8_inst/product6_reg/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#17 Warning
+PREG Output pipelining  
+DSP GEN_OLANES[4].dot8_inst/product0_reg output GEN_OLANES[4].dot8_inst/product0_reg/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#18 Warning
+PREG Output pipelining  
+DSP GEN_OLANES[4].dot8_inst/product2_reg output GEN_OLANES[4].dot8_inst/product2_reg/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#19 Warning
+PREG Output pipelining  
+DSP GEN_OLANES[4].dot8_inst/product4_reg output GEN_OLANES[4].dot8_inst/product4_reg/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#20 Warning
+PREG Output pipelining  
+DSP GEN_OLANES[4].dot8_inst/product6_reg output GEN_OLANES[4].dot8_inst/product6_reg/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#21 Warning
+PREG Output pipelining  
+DSP GEN_OLANES[5].dot8_inst/product0_reg output GEN_OLANES[5].dot8_inst/product0_reg/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#22 Warning
+PREG Output pipelining  
+DSP GEN_OLANES[5].dot8_inst/product2_reg output GEN_OLANES[5].dot8_inst/product2_reg/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#23 Warning
+PREG Output pipelining  
+DSP GEN_OLANES[5].dot8_inst/product4_reg output GEN_OLANES[5].dot8_inst/product4_reg/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#24 Warning
+PREG Output pipelining  
+DSP GEN_OLANES[5].dot8_inst/product6_reg output GEN_OLANES[5].dot8_inst/product6_reg/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#25 Warning
+PREG Output pipelining  
+DSP GEN_OLANES[6].dot8_inst/product0_reg output GEN_OLANES[6].dot8_inst/product0_reg/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#26 Warning
+PREG Output pipelining  
+DSP GEN_OLANES[6].dot8_inst/product2_reg output GEN_OLANES[6].dot8_inst/product2_reg/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#27 Warning
+PREG Output pipelining  
+DSP GEN_OLANES[6].dot8_inst/product4_reg output GEN_OLANES[6].dot8_inst/product4_reg/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#28 Warning
+PREG Output pipelining  
+DSP GEN_OLANES[6].dot8_inst/product6_reg output GEN_OLANES[6].dot8_inst/product6_reg/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#29 Warning
+PREG Output pipelining  
+DSP GEN_OLANES[7].dot8_inst/product0_reg output GEN_OLANES[7].dot8_inst/product0_reg/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#30 Warning
+PREG Output pipelining  
+DSP GEN_OLANES[7].dot8_inst/product2_reg output GEN_OLANES[7].dot8_inst/product2_reg/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#31 Warning
+PREG Output pipelining  
+DSP GEN_OLANES[7].dot8_inst/product4_reg output GEN_OLANES[7].dot8_inst/product4_reg/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#32 Warning
+PREG Output pipelining  
+DSP GEN_OLANES[7].dot8_inst/product6_reg output GEN_OLANES[7].dot8_inst/product6_reg/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+

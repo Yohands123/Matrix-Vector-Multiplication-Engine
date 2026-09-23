@@ -1,0 +1,12 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ypnayak/ece327-s2026-lab4/lab4/src/accum.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module accum
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ypnayak/ece327-s2026-lab4/lab4/src/ctrl.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ctrl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ypnayak/ece327-s2026-lab4/lab4/src/dot8.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dot8
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ypnayak/ece327-s2026-lab4/lab4/src/mem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ypnayak/ece327-s2026-lab4/lab4/src/mvm.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mvm
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ypnayak/ece327-s2026-lab4/lab4/tb/mvm_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mvm_tb

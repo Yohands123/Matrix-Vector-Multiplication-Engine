@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../../ece327-s2026-lab4/lab4/src/accum.sv" \
+"../../../../../ece327-s2026-lab4/lab4/src/ctrl.sv" \
+"../../../../../ece327-s2026-lab4/lab4/src/dot8.sv" \
+"../../../../../ece327-s2026-lab4/lab4/src/mem.sv" \
+"../../../../../ece327-s2026-lab4/lab4/src/mvm.sv" \
+"../../../../../ece327-s2026-lab4/lab4/tb/mvm_tb.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

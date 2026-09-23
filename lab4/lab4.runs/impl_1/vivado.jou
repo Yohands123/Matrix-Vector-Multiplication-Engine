@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.2.2 (64-bit)
+# SW Build 6060944 on Thu Mar 06 19:10:01 MST 2025
+# IP Build 6050500 on Thu Mar  6 23:33:39 MST 2025
+# SharedData Build 6060542 on Thu Mar 06 10:31:07 MST 2025
+# Start of session at: Mon Jul 13 12:48:56 2026
+# Process ID         : 19868
+# Current directory  : C:/Users/ypnayak/lab4/lab4.runs/impl_1
+# Command line       : vivado.exe -log mvm.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source mvm.tcl -notrace
+# Log file           : C:/Users/ypnayak/lab4/lab4.runs/impl_1/mvm.vdi
+# Journal file       : C:/Users/ypnayak/lab4/lab4.runs/impl_1\vivado.jou
+# Running On         : ECE-MCU2-15
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : 12th Gen Intel(R) Core(TM) i7-12700H
+# CPU Frequency      : 2688 MHz
+# CPU Physical cores : 14
+# CPU Logical cores  : 20
+# Host memory        : 16892 MB
+# Swap memory        : 4662 MB
+# Total Virtual      : 21555 MB
+# Available Virtual  : 6191 MB
+#-----------------------------------------------------------
+source mvm.tcl -notrace
